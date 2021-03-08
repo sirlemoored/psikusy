@@ -1,12 +1,10 @@
 #include <stdio.h> 
-#include <math.h>
-
-#include <windows.h>
+#include <windows.h> // potrzebne, by móc wypisywać polskie znaki w konsoli Windowsa
 
 int main(int argc, char** argv)
 {
 
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(65001); // potrzebne, by wypisywać polskie znaki w konsoli
     float a1, a2, a3, b1, b2, b3;
     float detA, detX, detY;
 
