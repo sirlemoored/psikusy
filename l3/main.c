@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-int fibonacciAux(unsigned int num, int* previous)
+int fibonacciAux(unsigned int num, int previous[])
 {
     if (num == 1 || num == 2)
         return 1;
@@ -26,9 +26,9 @@ int fibonacci(unsigned int num)
     previous[0] = 1;
     previous[1] = 1;
 
-    int num = fibonacciAux(num, previous);
+    int n = fibonacciAux(num, previous);
     free(previous);
-    return num;
+    return n;
 }
 
 
