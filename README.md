@@ -1,5 +1,5 @@
 # Psikusy programistyczne
 
-Rozwiązania zadanek okołozajęciowych w nieco bardziej cywilizowanym formacie oraz nieco innych bzdur.
+Rozwiązania zadanek okołozajęciowych w nieco bardziej cywilizowanym formacie oraz kilka innych bzdur.
 
 >Pozdrawiam i polecam. Piotr Fronczewski.
