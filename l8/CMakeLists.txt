@@ -17,6 +17,7 @@ endif()
 # Listing all source files belonging to this project
 set(FILES_SOURCE
     src/main.c
+    src/anagram.c
     src/palindrome.c
     )
 

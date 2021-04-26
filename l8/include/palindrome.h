@@ -3,4 +3,5 @@
 #include <string.h>
 #include <stdbool.h>
 
-bool isPalindrome(const char* word);
+int     asciiToIndex(char c);
+bool    isPalindrome(const char* word);

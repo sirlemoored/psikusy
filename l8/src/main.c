@@ -1,21 +1,17 @@
 #include <stdio.h>
 
+#include <anagram.h>
 #include <palindrome.h>
 
 int main()
 {
 
-	const char word1[] = "TommoT";
-	const char word2[] = "TomAmoT";
-	const char word3[] = "a";
-	const char word4[] = "";
-	const char word5[] = "AbcdrcbA";
-
-	printf("%d\n", isPalindrome(word1));
-	printf("%d\n", isPalindrome(word2));
-	printf("%d\n", isPalindrome(word3));
-	printf("%d\n", isPalindrome(word4));
-	printf("%d\n", isPalindrome(word5));
+	printf("%10s | %-10s: %d\n", "darek", "kreda", 		isAnagram("darek", "kreda"));
+	printf("%10s | %-10s: %d\n", "k", "k", 				isAnagram("k", "k"));
+	printf("%10s | %-10s: %d\n", "TOMEK", "TOM", 		isAnagram("TOMEK", "TOM"));
+	printf("%10s | %-10s: %d\n", "", "",			 	isAnagram("", ""));
+	printf("%10s | %-10s: %d\n", "KREDA", "KREEA", 		isAnagram("KREDA", "KREEA"));
+	printf("%10s | %-10s: %d\n", "tarapaty", "patytara",isAnagram("tarapaty", "patytara"));
 
 	return 0;
 }
